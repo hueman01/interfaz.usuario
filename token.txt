@@ -1,0 +1,7 @@
+https://github.com/hueman01/interfaz.usuario.git
+
+token git
+
+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
+
+https://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@github.com/hueman01/interfaz.usuario.git
