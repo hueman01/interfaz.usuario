@@ -1,9 +1,10 @@
 body{
+    display: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 #menu-principal{
-    display: inline-block;
+    display: center;
 }
 
 i{
