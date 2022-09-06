@@ -10,6 +10,10 @@ body{
 i{
     float: left;
 }
+#principal{
+    border: 1px solid #292f80;
+    background-color: #72c07e;
+}
 .menu{
    display: inline-block;
    text-align: center;
