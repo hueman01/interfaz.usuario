@@ -3,6 +3,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
 }
+.contenedor{
+    width: 90%;
+    background-color: lightblue;
+    border: 1px 1px 0 1px solid #292f80;
+    margin: 0 auto;
+}
+nav{
+    border-bottom: 0px;
+}
+#contenido{
+    border-top: 0px;
+    height: 350px;
+}
+h2{
+    margin: 0px;
+}
 #menu-principal{
     display: center;
 }
@@ -13,6 +29,11 @@ i{
 #principal{
     border: 1px solid #292f80;
     background-color: #72c07e;
+    width: 90%;
+    height: 220px;
+    margin: 0 auto;
+    font-size: 50px;
+    
 }
 .menu{
    display: inline-block;
@@ -42,5 +63,22 @@ a{
     text-decoration: none;
     background-color: #b9e953;
  }
+article{
+    margin: 10px;
+    background-color: #72c07e;
+    float: left;
+}
+#textoarticulo{
+    width: 58%;
+}
 
-
+#imagenarticulo{
+    width: 38%;
+}
+#imagenarticulo section>img{
+    width: 50%;
+}
+footer{
+    height: 150px;
+    background-color: lightblue;
+}
