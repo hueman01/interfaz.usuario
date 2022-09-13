@@ -82,3 +82,15 @@ footer{
     height: 150px;
     background-color: lightblue;
 }
+#formulariocontacto{
+    margin: 0 auto;
+    width: 50%;
+    float: none;
+
+}
+.intexto{
+    width: 60%;
+    height: 20px;
+    font-size: 1.3rem;
+    border: solid 0.8px black;
+}
