@@ -80,7 +80,7 @@ article{
 }
 footer{
     height: 150px;
-    background-color: lightblue;
+    background-color: black;
 }
 #formulariocontacto{
     margin: 0 auto;
@@ -89,8 +89,24 @@ footer{
 
 }
 .intexto{
-    width: 60%;
-    height: 20px;
+    width: 80%;
+    height: 30px;
     font-size: 1.3rem;
     border: solid 0.8px black;
+}
+.control{
+    width: 80%;
+    margin: 15px;
+    display: flex;
+}
+label{
+    width: 100px;
+}
+.buttomform{
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    font-size: 1.1rem;
+    border: solid 3px black;
+    border-radius: 5px;
 }
