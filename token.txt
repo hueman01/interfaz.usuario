@@ -10,6 +10,7 @@ para iniciar :
 
 cd desktop/
 cd andres02/
+git checkout -b mensaje nuevo
 git clone https://ghgitp_xMc6Q8dOXt64BfZfNazhdkDPUthCn01XQB7E@github.com/hueman01/interfaz.usuario.git
 cd interfaz-usuario-main
 code .

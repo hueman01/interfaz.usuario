@@ -30,7 +30,7 @@ i{
     border: 1px solid #292f80;
     background-color: #72c07e;
     width: 90%;
-    height: 220px;
+    height: 300px;
     margin: 0 auto;
     font-size: 50px;
     
@@ -109,4 +109,7 @@ label{
     font-size: 1.1rem;
     border: solid 3px black;
     border-radius: 5px;
+}
+.video{
+    font-size: 20px;
 }
