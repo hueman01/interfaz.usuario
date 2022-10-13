@@ -2,6 +2,8 @@ body{
     display: center;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
+    /*asi se puede escribir un comentario */
+    
 }
 .contenedor{
     width: 90%;
@@ -113,3 +115,4 @@ label{
 .video{
     font-size: 20px;
 }
+table
