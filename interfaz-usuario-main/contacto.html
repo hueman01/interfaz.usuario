@@ -5,73 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/c63a294395.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f5e1f3458c.js" crossorigin="anonymous"></script>
     <title>Web Ipvg 2022 - Interfaz de Usuario</title>
-
 </head>
 <body>
-    <header>
-        <center>
-        <img src="IMG_4064.png" width="10%"
-        </center>
+    <header id="principal">
+        <h1>Interfaz de Usuario 2022</h1>
     </header>
-        <center>
-            <br>
-            <ul id="principal">    
-            <h1>Mi Primera Pagina Web 2022</h1>
-        </center>
-    </header>
-    <header>
-        <br>
-        <center>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/RXS3esRlNK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </center>
-    </header>
-    <nav>
-        <center>
-            <ul id="menu-principal">
-                 <li class="menu"><a href="index.html"><i class="fa-solid fa-house-chimney"></i><span>inicio</span></a></li>
-                 <li class="menu"><a href=""><i class="fa-solid fa-people-group"></i>Quienes Somos</a></li>
-                 <li class="menu"><a href=""><i class="fa-regular fa-folder-open"></i>Publicaciones</a></li>
-                 <li class="menu"><a href=""><i class="fa-sharp fa-solid fa-laptop"></i>Servicios</a></li>
-                <li class="menu"><a href=""><i class="fa-solid fa-envelope"></i>Contacto</a></liclass="menu">
+    <nav class="contenedor">
+        <ul id="menu-principal">
+            <li class="menu"><a href="index.html"><i class="fa-solid fa-house-chimney"></i><span>Inicio</span></a></li>
+            <li class="menu"><a href="quienessomos.html"><i class="fa-solid fa-people-group"></i><span>Quienes Somos</span></a></li>
+            <li class="menu"><a href="publicaciones.html"><i class="fa-solid fa-folder-open"></i><span>Publicaciones</span></a></li>
+            <li class="menu"><a href="servicios.html"><i class="fa-solid fa-laptop"></i><span>Servicios</span></a></li>
+            <li class="menu"><a href="contacto.html"><i class="fa-solid fa-envelope"></i><span>Contacto</span></a></liclass="menu">
         </ul>
-        </center>
     </nav>
     <section id="contenido" class="contenedor">
         <article id="formulariocontacto">
-            <header><center>
-                <br>
-                <h2>CONTACTO</h2>
-            </header></center>
-            <section style="margin-bottom:0,5px ; padding-bottom:10px; background-color: #72c07e;">
+            <header>
+                <h2>Contacto</h2>
+            </header>
+            <section style="margin-bottom: 10px; padding-bottom: 10px;">
                 <form action="">
                     <div class="control">
-                        <label for="txtnombre">nombre:</label>
-                        <input class="intexto" type="text" name="txtnombre" id="txtnombre" placeholder="Ingrese su Nombre" autocomplete="off">
+                        <label for="txtnombre">Nombre:</label>
+                        <input class="intexto" type="text" name="txtnombre" id="txtnombre" placeholder="Ingrese su nombre" required autocomplete="off">                      
                     </div>
-                    <div class="control">   
-                        <label for="">clave</label>
-                        <input class="intexto" type="password" name="texclave" id="texclave" placeholder="Ingrese su Clave" maxlength="10">
+                    <div class="control">
+                        <label for="">Clave</label>
+                        <input class="intexto" type="password" name="txtclave" id="txtclave" placeholder="Ingrese clave" maxlength="10">          
                     </div>
-                    <div class="control">   
+                    <div class="control">
                         <label for="">Edad</label>
-                        <input class="intexto" type="number" name="texedad" id="texedad" placeholder="Ingrese su Edad" maxlength="3">
+                        <input class="intexto" type="number" name="txtedad" id="txtedad" placeholder="Ingrese edad" maxlength="3" value="18">          
                     </div>
-                    <div class="control">   
+                    <div class="control">
                         <label for="">Email</label>
-                        <input class="intexto" type="email" name="texemail" id="texemail" placeholder="Ingrese su Email">
+                        <input class="intexto" type="email" name="txtemail" id="txtemail" placeholder="Ingrese email">          
                     </div>
-                    <div><center>
-                        <button class="buttomform" type="submit">Enviar</button>
-                        <button class="buttomform" type="reset">Limpiar</button>
-                    </div></center>
+
+                    <div>
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">HTML</label><br>
+                            <input type="radio" id="css" name="fav_language" value="CSS">
+                            <label for="css">CSS</label><br>
+                            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                    </div>
+                    <div>
+                        <button class="buttonform" type="reset">Limpiar</button>
+                        <button class="buttonform" type="submit">Enviar</button>
+                    </div>
                 </form>
             </section>
         </article>
-    </section>      
-<footer class="contenedor">
+    </section>
+    <footer class="contenedor">
+
         <p>Todos los derechos reservador 2022</p>
-</footer>
+    </footer>
+  
+
 </body>
 </html>

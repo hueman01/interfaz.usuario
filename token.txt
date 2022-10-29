@@ -20,3 +20,7 @@ para cerrar y guardar :
 git add .
 git commit -m "mensaje"
 git push origin main
+
+https://github.com/hueman01/interfaz.usuario.git
+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
+https://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@github.com/hueman01/interfaz.usuario.git
